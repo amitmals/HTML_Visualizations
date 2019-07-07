@@ -1,0 +1,51 @@
+body { 
+    background-color: lightgray;
+    color: gray;
+    font-family: "Palatino";
+    font-size: 16px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar-brand{
+	font-family: "Palatino";
+	font-weight: bolder;
+	font-size: 35px;
+    margin-left: 40px;
+    padding: 15px;
+    color: white;
+    background-color: #15BBB4;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-item{
+	padding-right: 30px;
+}
+
+.container-body{
+    background-color: white;
+}
+
+footer{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    border-top: 5px solid #15BBB4;
+}
+
+h2{
+    font-family: "Palatino";
+    color: #15BBB4;  
+   font-weight: bolder; 
+}
+
+img_active { 
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:#ff0;
+ }
