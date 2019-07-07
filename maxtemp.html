@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Amit Malik</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/stylesheet.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+    <!-- Brand -->
+        <a class="navbar-brand" href="#">Latitude</a>
+
+    <!-- Links -->
+        <ul class="nav navbar-nav ml-auto">
+            
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Plots</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="maxtemp.html">Max. Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+
+
+        </ul>
+    </nav>
+
+    
+    <div class="container-body" style="margin-top:120px">
+
+    </div>
+
+
+    <div class="container">
+            <div class="row">
+              <div class="col-md-7" style="background-color:white;">
+                    <div class ="panel panel-default">
+                        <div class="panel-body">
+                            <br>
+                            <h2>Latitude vs. Maximum Temperature</h2>
+                            <hr>
+                            <img src="https://user-images.githubusercontent.com/46534353/58495773-2a9db200-812d-11e9-9df0-0df0ec335ba1.png" alt="Max Temperature Locations" class="img-fluid" height="200" >
+                            <hr>
+                            <p>There is a strong correlation between Latitude and Max temperature as seen from the plot. Cities that are closer to the equator have a higher max temperatures.</p>
+                            <img src="https://user-images.githubusercontent.com/46534353/58493271-69306e00-8127-11e9-80ab-2064da7f47d6.png" alt="Max Temperature" class="rounded mx-auto d-block" >
+                            <p>Additionally binning the cities by latitude shows that the average temperatures closer to the equator are higher!</p>
+                            <img src="https://user-images.githubusercontent.com/46534353/58493916-d7296500-8128-11e9-97af-e4c64dbbbd4d.png" alt="Max Temperature-Binned" class="rounded mx-auto d-block" >
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+              
+              <div class="col-md-4 offset-md-1"  style="background-color: white;">
+                    <div class="panel-body">
+
+                        <br><h2>Visualizations</h2>
+                        <p>Click on image to go to analysis</p>
+                        <hr>
+                        <div class="row" >
+                                <div class="col-sm-6" style="border:3px solid teal;">
+                                    <a href="maxtemp.html"><img src="https://user-images.githubusercontent.com/46534353/58493271-69306e00-8127-11e9-80ab-2064da7f47d6.png" alt="Max Temperature" class="img-responsive" height="170" width="170"></a>
+                                </div>
+                                <div class="col-sm-6">
+                                        <a href="humidity.html"><img src="https://user-images.githubusercontent.com/46534353/58494800-c7128500-812a-11e9-92b2-644af4b0cebd.png" alt="Humidity" class="img-responsive" height="170" width="170"></a>
+                                </div>
+                                <div class="col-sm-6">
+                                        <a href="cloudiness.html"><img src="https://user-images.githubusercontent.com/46534353/58495258-dcd47a00-812b-11e9-86b1-9fe2b16cc236.png" alt="Cloudiness" class="img-responsive" height="170" width="170"></a>
+                                </div>
+                                <div class="col-sm-6">
+                                        <a href="windspeed.html"><img src="https://user-images.githubusercontent.com/46534353/58495501-89aef700-812c-11e9-9147-98276dbd52fb.png" alt="WindSpeed" class="img-responsive" height="170" width="170"></a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer class="fixed-bottom">
+        <h4>Amit Malik</h4>
+        <p>&copy; 2019. All rights reserved<p></p>
+    </footer>
+
+</body>
+</html>
