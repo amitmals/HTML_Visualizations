@@ -41,7 +41,7 @@ footer{
 h2{
     font-family: "Palatino";
     color: #15BBB4;  
-   font-weight: bolder; 
+    font-weight: bolder; 
 }
 
 img_active { 
@@ -49,3 +49,10 @@ img_active {
     border:1px solid #021a40;
     background-color:#ff0;
  }
+
+ h3{
+    font-family: "Palatino";
+    color: #15BBB4;
+    font-weight: bold;
+    text-align: center;
+}
